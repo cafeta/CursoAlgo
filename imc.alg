@@ -16,7 +16,6 @@ inicio
      EscrevaL ("IMC", IMC:5:2)
      Se (IMC >= 18.5 ) e (IMC < 25) entao
         Escreva ("dentro do peso ideal")
-
     Senao
          Escreva ("Obeso")
     FimSe

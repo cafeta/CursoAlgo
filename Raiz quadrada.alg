@@ -8,11 +8,15 @@ Var
 inicio
 
    Limpatela
+
    Escreva("TTTTT o valor de 'A': ")
+
+   //entrada de dados
+   Escreva("Escreva o valor de 'A': ")
    Leia(a)
-   Escreva("Digite o valor de 'B': ")
+   Escreva("Escreva o valor de 'B': ")
    Leia(b)
-   Escreva("Digite o valor de 'C': ")
+   Escreva("Escreva o valor de 'C': ")
    Leia(c)
 
    b2 := b*b
@@ -20,25 +24,25 @@ inicio
    xraiz := ((4 * a) * c)
    delta := b2 - xraiz
 
-   SE a = 0 ENT√O
+   SE a = 0 ENT√ÉO
       Escreva("'A' tem que ser diferente de (0)")
-   SEN√O
-      SE delta > 0 ENT√O
-         Escreval("Existem duas raizes 'possÌveis' ")
+   SEN√ÉO
+      SE delta > 0 ENT√ÉO
+         Escreval("Existem duas raizes 'poss√≠veis' ")
          x1 := (-b+RaizQ(delta)) / (2 * a )
          x2 := (-b-RaizQ(delta)) / (2 * a )
          Escreval("A Primeira raiz X': ", x1)
          Escreval("A Segunda raiz X'': ", x2)
-      SEN√O
-         SE delta = 0 ENT√O
-            Escreval("As Duas raizes s„o iguais ")
+      SEN√ÉO
+         SE delta = 0 ENT√ÉO
+            Escreval("As Duas raizes s√£o iguais ")
             x1 := (-b+RaizQ(delta)) / (2 * a )
             x2 := (-b-RaizQ(delta)) / (2 * a )
             Escreval("A Primeira raiz X': ", x1)
             Escreval("A Segunda raiz X'': ", x2)
-         SEN√O
-            SE delta < 0 ENT√O
-               Escreva("N„o pertence aos n˙meros reais")
+         SEN√ÉO
+            SE delta < 0 ENT√ÉO
+               Escreva("N√£o pertence aos n√∫meros reais")
             FIMSE
          FIMSE
       FIMSE

@@ -8,7 +8,7 @@ Var
 inicio
 
    Limpatela
-   Escreva("Digite o valor de 'A': ")
+   Escreva("TTTTT o valor de 'A': ")
    Leia(a)
    Escreva("Digite o valor de 'B': ")
    Leia(b)

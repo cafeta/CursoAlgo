@@ -8,11 +8,12 @@ Var
 inicio
 
    Limpatela
-   Escreva("Digite o valor de 'A': ")
+   //entrada de dados
+   Escreva("Escreva o valor de 'A': ")
    Leia(a)
-   Escreva("Digite o valor de 'B': ")
+   Escreva("Escreva o valor de 'B': ")
    Leia(b)
-   Escreva("Digite o valor de 'C': ")
+   Escreva("Escreva o valor de 'C': ")
    Leia(c)
 
    b2 := b*b
